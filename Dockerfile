@@ -1,5 +1,5 @@
 FROM python:3.4-alpine
-MAINTAINER PPB "pierre-p.bariller@garda.com"
+MAINTAINER bariller "pp.bariller@gmail.com"
 COPY ./service /service
 
 #reference: https://github.com/sesam-community/soap-zeep-source/blob/master/Dockerfile
