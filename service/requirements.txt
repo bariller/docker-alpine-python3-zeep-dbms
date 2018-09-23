@@ -1,0 +1,4 @@
+zeep==3.1.0
+pymongo==3.6.1
+pymssql==2.0.1
+#git+https://github.com/pymssql/pymssql
