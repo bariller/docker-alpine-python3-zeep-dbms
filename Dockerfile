@@ -18,7 +18,7 @@ COPY ./service /service
 
 # RUN mkdir /app
 
-RUN apk add --update python3-dev libxml2-dev libxslt-dev musl-dev gcc libxml2 libxslt py3-lxml && \
+RUN apk add --update python3-dev libxml2-dev libxslt-dev musl-dev gcc libxml2 libxslt py3-lxml lftp && \
     pip install --upgrade pip && \
     PYMSSQL_BUILD_WITH_BUNDLED_FREETDS=1 pip install -r /service/requirements.txt && \
     mkdir /app && \
