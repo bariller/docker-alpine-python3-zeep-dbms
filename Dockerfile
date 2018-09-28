@@ -25,8 +25,8 @@ RUN apk add --update python3-dev libxml2-dev libxslt-dev musl-dev gcc libxml2 li
     apk del python3-dev libxml2-dev libxslt-dev musl-dev gcc && \
     rm -rf /var/cache/apk/*
 
-VOLUME [ "/app" ]
+#VOLUME [ "/app" ]
 
 #EXPOSE 5001/tcp
 
-CMD ["python3", "-u", "/app"]
+#CMD ["python3", "-u", "/app"]
